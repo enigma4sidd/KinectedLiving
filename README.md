@@ -1,8 +1,8 @@
 # KinectED Living
 
-[![Alt text](http://i3.ytimg.com/vi/OFWZfW4lwUM/maxresdefault.jpg)]()
+[![Alt text](http://i3.ytimg.com/vi/LzxFHpl5-G4/maxresdefault.jpg)]()
 
-<a></a>
+
 
 ##An automated home application that allows multimodal interaction
 
