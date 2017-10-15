@@ -1,6 +1,6 @@
 # KinectED Living
 
-[![Alt text](himages/kinect.jpg)]()
+[![Alt text](Images/kinect.jpg)]()
 
 
 
