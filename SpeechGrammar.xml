@@ -1,0 +1,162 @@
+<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>BOTH_ON</tag>
+        <one-of>
+          <item>Switch Both on</item>
+          <item>Turn on both</item>
+          <item>turn on both LED</item>
+          <item>turn on both the LED</item>
+          <item>switch on both the LED</item>
+          <item>switch on both the L E D</item>
+          <item>switch on both</item>
+          <item>turn both on</item>
+        </one-of>
+      </item>
+      
+      
+      <item>  
+        <tag>FORWARD</tag>
+        <one-of>
+	      	<item>Turn on left</item>
+		      <item>left on</item>
+          <item>switch on left LED</item> 
+          <item>switch on left L E D</item>
+          <item>switch on left</item> 
+          <item>switch on the left LED</item> 
+          <item>Glow the left one</item>
+          <item>Glow the left LED</item>
+          <item>Glow the left L E D</item>
+          <item>Glow left</item>
+           <item>Switch on the left one</item> 
+          <item>turn on left light</item>
+          <item>turn on left bulb</item>
+          <item>switch on left bulb</item> 
+          <item>glow the left bulb</item>
+          <item>glow left bulb</item>
+          <item>switch on left one</item> 
+          <item>glow left one</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BACKWARD</tag>
+        <one-of>
+		      <item>Turn on right</item>
+		      <item>right on</item>
+          <item>switch on right LED</item> 
+           <item>switch on right L E D</item> 
+         <item>switch on right</item> 
+         <item>switch on the right LED</item> 
+        <item>switch on the right L E D</item>
+          <item>Glow the right one</item>
+          <item>Glow the right LED</item>
+           <item>Glow the right L E D</item>
+          <item>Glow right</item>
+          <item>Switch on the right one</item>
+        
+          <item>turn on right bulb</item>
+       <item>switch on right bulb</item>
+         
+          <item>glow the right bulb</item>
+          <item>glow right bulb</item>
+        
+        <item>switch on right one</item> 
+          <item>glow right one</item>
+          
+        
+        </one-of>
+      </item>
+      
+	<item>
+        <tag>LEFT</tag>
+        <one-of>
+		     <item>Switch off </item> 
+          <item>turn off</item>
+          <item>turn off all LEDs</item>
+          <item>close all LEDs</item>
+         <item>switch off all bulbs</item> 
+         <item>switch off all the bulbs</item> 
+        <item>switch off all the L E D </item>
+          <item>turn off all bulbs</item> 
+          <item>close the bulbs</item> 
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHTLOW</tag>
+        <one-of>
+		      <item>Set right to low</item>
+		      <item>set right LED to low</item>
+           <item>set right L E D to low</item>
+		      <item>Lower the right LED</item>
+          <item>Lower the right L E D</item>
+		      <item>dim the right LED</item>
+          <item>dim the right L E D</item>
+          <item>dim the right</item>
+          <item>dim the right bulb</item>
+          <item>dim right bulb</item>
+          <item>lower right bulb</item>
+          <item>lower right</item>
+        <item>decrease brightness of the right bulb</item>
+          <item>decrease brightness of the right LED</item>
+          <item>decrease brightness of the right L E D</item> 
+        </one-of>
+      </item>
+	<item>
+        <tag>LEFTHIGH</tag>
+        <one-of>
+		      <item>Set left to high</item>
+		      <item>set left LED to high</item>
+          <item>set left L E D to high</item>
+		      <item>brighten left LED</item>
+          <item>brighten left L E D</item> 
+		     <item>increase brightness of the left LED</item>
+          <item>increase brightness of the left L E D</item>
+          <item>increase brightness of the left bulb</item>
+          <item>increase brightness of left bulb</item> 
+          
+          
+        
+        </one-of>
+      </item>
+	<item>
+        <tag>RIGHTHIGH</tag>
+        <one-of>
+		      <item>Set right to high</item>
+          <item>Set the right to high</item>
+		      <item>set right LED to high</item>
+           <item>set right L E D to high</item>
+		     <item>increase the right L E D</item>
+           <item>increase the right LED</item> 
+		      <item>brighten right LED</item>
+          <item>brighten the right LED</item> 
+          <item>increase brightness of the right LED</item>
+          <item>increase brightness of the right L E D</item>
+          <item>increase brightness of the right bulb</item>
+          <item>increase brightness of right bulb</item> 
+        
+        </one-of>
+      </item>
+	<item>
+        <tag>LEFTLOW</tag>
+        <one-of>
+		       <item>Set left to low</item>
+		      <item>set left LED to low</item>
+           <item>set left L E D to low</item>
+		      <item>Lower the left LED</item>
+          <item>Lower the left L E D</item>
+		     <item>dim the left LED</item> 
+          <item>dim the left L E D</item>
+          <item>dim the left bulb</item>
+          <item>dim the left</item>
+          <item>dim left bulb</item>
+          <item>lower left bulb</item>
+          <item>lower left</item>
+        <item>decrease brightness of the left bulb</item> 
+        <item>decrease brightness of the left LED</item> 
+         <item>decrease brightness of the left L E D</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
